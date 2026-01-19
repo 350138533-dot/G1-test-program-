@@ -9,7 +9,7 @@ public class Main {
 
         //Display of the menu
         System.out.println("1)write the G1 test");
-        System.out.println("2) log as adminn");
+        System.out.println("2) log as admin");
         System.out.println("Choose a option");
 
         //user chocie from the display menu
@@ -19,7 +19,7 @@ public class Main {
         if (choice == 2) {
             System.out.println("Enter admin password");
             String password = input.next();
-            if (password.equals("admin123")) {
+            if (password.equals("admin67")) {
                 System.out.println("admin access granted");
                 System.out.println("Feature not fully implemented (Grade 11 demo)");
             }
